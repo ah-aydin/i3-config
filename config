@@ -200,3 +200,20 @@ exec --no-startup-id picom -b
 # Startup polybar
 exec --no-startup-id polybar-msg cmd quit
 exec --no-startup-id polybar
+
+# Ayu colors
+set $black = #1F2430
+set $red = #FF0000
+set $green = #BAE67E
+set $yellow = #FFB454
+set $blue = #73D0FF
+set $magenta = #D4BFFF
+set $cyan = #95E6CB
+# set $white = #CBCCC6
+set $white = #FFFFFF
+
+# Class                   border  background  text    indicator child_border
+client.focused            $red    $red        $white $white $white
+client.focused_inactive   $red    $red        $white $white $white
+client.unfocused          $black  $black      $blue   $blue     $blue
+client.urgent             $red    $red        $blue   $blue     $blue
