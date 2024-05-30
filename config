@@ -199,4 +199,4 @@ exec_always --no-startup-id xset r rate 200 35
 exec --no-startup-id picom -b
 # Startup polybar
 exec --no-startup-id polybar-msg cmd quit
-exec --no-startup-id polybar
+exec --no-startup-id sleep 5 && polybar
