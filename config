@@ -191,6 +191,7 @@ bindsym $mod+r mode "resize"
 
 # Setup displays
 exec --no-startup-id ~/.config/i3/setup_displays.sh
+workspace 10 output DP-1-1
 # Setup backgroudn image
 exec --no-startup-id feh --bg-scale /home/hamza/Pictures/armored_core6.jpg
 # Set keyboar press repeat
